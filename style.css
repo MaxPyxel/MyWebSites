@@ -1,0 +1,164 @@
+#BackgroundStyleColor {
+    background-color: rgb(26, 26, 26);
+}
+
+#TextTitleSTYLE {
+    color: rgb(255, 255, 255);
+    font-family: "Handlee", sans-serif;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 0 0 80px rgb(221, 221, 221), 0 0 15px rgb(56, 159, 255);
+    -webkit-text-stroke: 1px rgb(214, 214, 214);
+    margin-top: 30px;
+    height: 100px;
+    width: 1919px;
+}
+
+#BoxStyle1 {
+    width: 600px;
+    height: 470px;
+    background-color: rgb(61, 61, 49);
+    border-radius: 10px;
+    border: 1px solid rgb(97, 97, 97);
+    margin-left: 40px;
+    box-shadow: 0 0 10px black inset;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 0, 0, 0.493));
+    margin-top: 20px;
+}
+
+#imgs {
+    width: 400px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 9px;
+    border: 1px solid rgb(153, 153, 153);
+    outline: 5px solid rgb(26, 26, 26);
+}
+
+#titlestyleWEB {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 35px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 5px;
+    width: 345px;
+    text-align: center;
+    border: 1px solid rgb(153, 153, 153);
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 0, 0, 0.493));
+}
+
+#descripcionWEBstyle {
+    margin-left: 35px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 545px;
+    height: 135px;
+    font-size: 3 0px;
+}
+
+#htmlBOX {
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: auto;
+    margin-left: 35px;
+    margin-top: -90px;
+}
+
+#cssBOX {
+    background-color: slateblue;
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: auto;
+    margin-left: 195px;
+    margin-top: -35px;
+}
+
+#BoxLink {
+    color: white;
+    font-family: "BBH Bogle", sans-serif;
+    font-size: 53px;
+    text-decoration: none;
+}
+
+#boxSTYLElink {
+    width: 180px;
+    height: 80px;
+    background-color: #F5DF4D;
+    color: white;
+    border-radius: 9px;
+    margin-left: 380px;
+    margin-top: -50px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 0, 0, 0.493));
+    transition: 0.25s;
+}
+
+#boxSTYLElink:hover {
+    background-color: #918430;
+    transform: scale(1.2);
+    transform: rotate(-3deg);
+}
+
+#fechastyle {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-top: -60px;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+#BoxStyle2 {
+    width: 600px;
+    height: 470px;
+    background-color: rgb(49, 61, 50);
+    border-radius: 10px;
+    border: 1px solid rgb(97, 97, 97);
+    margin-left: 660px;
+    margin-top: -470px;
+    box-shadow: 0 0 10px black inset;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 0, 0, 0.493));
+}
+
+#BoxStyle3 {
+    width: 600px;
+    height: 470px;
+    background-color: rgb(61, 54, 49);
+    border-radius: 10px;
+    border: 1px solid rgb(97, 97, 97);
+    margin-left: 1280px;
+    margin-top: -470px;
+    box-shadow: 0 0 10px black inset;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 0, 0, 0.493));
+}
+
+#BoxStyle4 {
+    width: 600px;
+    height: 470px;
+    background-color: rgb(61, 51, 49);
+    border-radius: 10px;
+    border: 1px solid rgb(97, 97, 97);
+    margin-left: 40px;
+    box-shadow: 0 0 10px black inset;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 0, 0, 0.493));
+    margin-top: 20px;
+}
+
+#BoxStyle5 {
+    width: 600px;
+    height: 470px;
+    background-color: rgb(49, 58, 61);
+    border-radius: 10px;
+    border: 1px solid rgb(97, 97, 97);
+    margin-left: 660px;
+    margin-top: -470px;
+    box-shadow: 0 0 10px black inset;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 0, 0, 0.493));
+}
