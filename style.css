@@ -1,17 +1,17 @@
 #BackgroundStyleColor {
-    background-color: rgb(26, 26, 26);
+    background-image: linear-gradient(-45deg, rgb(35, 34, 83), rgb(45, 92, 95));
 }
 
 #TextTitleSTYLE {
     color: rgb(255, 255, 255);
-    font-family: "Handlee", sans-serif;
+    font-family: "Zen Dots", sans-serif;
     text-align: center;
     font-size: 70px;
-    text-shadow: 0 0 80px rgb(221, 221, 221), 0 0 15px rgb(56, 159, 255);
-    -webkit-text-stroke: 1px rgb(214, 214, 214);
     margin-top: 30px;
     height: 100px;
-    width: 1919px;
+    width: 800px;
+    text-decoration: underline;
+    border-bottom: 2px solid white;
 }
 
 #BoxStyle1 {
@@ -31,41 +31,43 @@
     height: 220px;
     margin-top: 20px;
     margin-left: 90px;
-    border-radius: 9px;
-    border: 1px solid rgb(153, 153, 153);
-    outline: 5px solid rgb(26, 26, 26);
+    border-radius: 2px;
+    outline: 15px solid rgb(26, 26, 26);
+    box-shadow: 0 0 19px black;
 }
 
 #titlestyleWEB {
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Urbanist", sans-serif;
     margin-left: 35px;
-    background-color: rgb(117, 117, 117);
     border-radius: 5px;
     width: 345px;
-    text-align: center;
+    text-align: left;
     border: 1px solid rgb(153, 153, 153);
-    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 0, 0, 0.493));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.692));
 }
 
 #descripcionWEBstyle {
     margin-left: 35px;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto Mono", sans-serif;
     width: 545px;
     height: 135px;
-    font-size: 3 0px;
+    font-size: 13px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 9px;
 }
 
 #htmlBOX {
     background-color: tomato;
     color: white;
     border-radius: 10px;
-    width: 130px;
+    width: 110px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: auto;
-    margin-left: 35px;
+    margin-left: 45px;
     margin-top: -90px;
 }
 
@@ -73,46 +75,55 @@
     background-color: slateblue;
     color: white;
     border-radius: 10px;
-    width: 130px;
+    width: 90px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: auto;
-    margin-left: 195px;
+    margin-left: 165px;
     margin-top: -35px;
 }
 
 #BoxLink {
     color: white;
-    font-family: "BBH Bogle", sans-serif;
+    font-family: "BBH Hegarty", sans-serif;
     font-size: 53px;
     text-decoration: none;
 }
 
+#BoxLink:hover {
+    text-decoration: underline;
+    border-bottom: 2px solid white;
+}
+
 #boxSTYLElink {
-    width: 180px;
+    width: 240px;
     height: 80px;
-    background-color: #F5DF4D;
+    background-color: #65d16e;
     color: white;
-    border-radius: 9px;
-    margin-left: 380px;
-    margin-top: -50px;
+    border-radius: 1px;
+    margin-left: 305px;
+    margin-top: -60px;
     text-align: center;
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 0, 0, 0.493));
-    transition: 0.25s;
+    transition: ease 0.34s, background-color 0.2s;
 }
 
 #boxSTYLElink:hover {
-    background-color: #918430;
-    transform: scale(1.2);
-    transform: rotate(-3deg);
+    background-color: #274729;
+    transform: scale(1.13);
+    border-radius: 20px;
+    box-shadow: 0 0 9px #cfffd3;
 }
 
 #fechastyle {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    margin-top: -60px;
-    margin-left: 35px;
+    color: rgb(255, 255, 255);
+    font-family: "Syne Mono", sans-serif; 
+    margin-top: -45px;
+    margin-left: 45px;
+    width: 200px;
     font-size: 20px;
+    background-color: rgba(126, 147, 190, 0.274);
+    border-radius: 7px;
 }
 
 #BoxStyle2 {
