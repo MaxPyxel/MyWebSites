@@ -1,118 +1,224 @@
-.span-websites {
-    color: springgreen;
+body {
+    margin: 0;
 }
 
-.title-website-top {
-    font-family: "Fahkwang", sans-serif;
+.title-hero {
     text-align: center;
+    font-family: "Mona Sans", sans-serif;
+    font-weight: 200;
+    font-size: 70px;
+    color: black;
+    animation-name: animstart-2; 
+    animation-duration: 1.4s;
+    animation-timing-function: ease;
 }
 
-.p-top-websites {
-    font-family: "Barlow Condensed", sans-serif;
-    letter-spacing: 2px;
-    text-align: center
+.p-1 {
+    text-align: center;
+    font-family: "Mona Sans", sans-serif;
+    font-weight: 600;
+    animation-name: animstart-3; 
+    animation-duration: 1.4s;
+    animation-timing-function: ease;
 }
 
-.AIRE {
+.background-hero {
+    background-image: url(img/joshua-reddekopp-7Oq9r2CiTLg-unsplash.jpg);
+    mask-image: linear-gradient(black, transparent);
+    background-size: cover;
+    z-index: -2;
+    position: absolute;
     width: 100%;
-    height: 20px;
+    height: 30rem;
+    top: 0;
+    margin: 0;
+    animation-name: animstart-1; 
+    animation-duration: 1.4s;
+    animation-timing-function: ease;
 }
 
-#body {
-    color: white; background-color: #121212; padding: 12px; padding-top: 0; font-family: 'Barlow Condensed', sans-serif;
-    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(img/wavy_background_4.png);
-    background-repeat: no-repeat;
-    background-size: 125rem;
-    background-attachment: fixed;
-}
-
-.div-box {
-    background-color: black;
-    border: 1px solid rgba(255, 255, 255, 0.527);
+.p-2 {
+    font-family: "Six Caps", sans-serif;
+    font-size: 60px;
+    letter-spacing: 12px;
     text-align: center;
-    padding: 22px;
-    width: 360px;
-    border-radius: 6px;
-    margin: 16px;
+    animation-name: animstart-3; 
+    animation-duration: 2.4s;
+    animation-timing-function: ease;
 }
 
-#seccion-divs-box {
-    display: inline-flex;
-    padding-left: 55px;
-    width: 1807px;
-}
-
-.name-website {
-    color: white;
-    font-family: "Fahkwang", sans-serif;
-    -webkit-text-stroke: 12px rgba(255, 255, 255, 0.041);
-}
-
-.html-span {
-    background-color: #E34F26;
-    padding: 2px;
-    font-family: "Montserrat";
-    margin: 4px;
-    height: max-content;
-}
-
-.css-span {
-    background-color: #2D53E5;
-    padding: 2px;
-    font-family: "Montserrat";
-    margin: 4px;
-    height: max-content;
-}
-
-.keyframes-span {
-    background-color: #9F6EA4;
-    padding: 2px;
-    font-family: "Roboto Mono";
-    font-size: 14px;
-    margin: 4px;
-    height: max-content;
-}
-
-.hover-span {
-    background-color: #cc904b;
-    padding: 2px;
-    font-family: "Oswald";
-    font-weight: 700;
-    font-size: 12.5px;
-    margin: 4px;
-    height: max-content;
-}
-
-.js-span {
-    background-color: #ffd103;
-    color: black;
-    padding: 2px;
-    font-family: "Montserrat";
-    margin: 4px;
-    height: max-content;
-}
-
-.link-website {
-    background-color: white;
-    color: black;
-    padding: 2px;
-    padding-left: 12px;
-    padding-right: 12px;
+.div-pag-web {
     border: 1px solid black;
-    outline: 3px solid white;
-    text-decoration: none;
-    font-family: "Chivo Mono";
-    border-radius: 16px;
-}
-
-.link-website:hover {
-    background-color: #d6d6d6;
-}
-
-.link-website:active {
     background-color: white;
+    border-radius: 4px;
+    padding: 22px;
+    width: max-content;
+    margin: 22px;
+    transition: all 0.12s ease;
 }
 
-.seccion-divs-box-sub {
-    background-color: transparent;
+.div-pag-web:hover {
+    background-color: rgb(241, 241, 241);
+    transform: translateY(-2px);
+    outline: 4px solid black;
+}
+
+.image-preview-web {
+    width: 18rem;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.title-web {
+    font-family: "Mona Sans";
+    font-size: 20px;
+}
+
+.p-4 {
+    font-size: 14px;
+}
+
+.button-web {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 8px;
+    font-family: "Mona Sans";
+    cursor: pointer;
+    padding-left: 90px;
+    padding-right: 90px;
+    outline: 1px solid black;
+    box-shadow: 0 0 10px black;
+    transition: all 0.12s ease;
+}
+
+.button-web:hover {
+    background-color: #474747;
+    color: white;
+    outline: 1px solid rgb(255, 255, 255);
+}
+
+.button-web:active {
+    background-color: white;
+    color: black;
+}
+
+.html-p {
+    color: white;
+    width: max-content;
+    background-color: #E34F26;
+    padding: 8px;
+    font-family: monospace;
+    display: flex;
+    margin-left: 2px;
+    border-radius: 2px;
+}
+
+.css-p {
+    color: white;
+    width: max-content;
+    background-color: #2D53E5;
+    padding: 8px;
+    font-family: monospace;
+    display: flex;
+    margin-left: 2px;
+    border-radius: 2px;
+}
+
+.keyframes-p {
+    color: white;
+    width: max-content;
+    background-color: #9179b9;
+    padding: 8px;
+    font-family: monospace;
+    display: flex;
+    margin-left: 2px;
+    border-radius: 2px;
+}
+
+.hover-p {
+    background-color: #2e7200;
+    color: white;
+    width: max-content;
+    padding: 8px;
+    font-family: monospace;
+    display: flex;
+    margin-left: 2px;
+    border-radius: 2px;
+}
+
+.secondpage-p {
+    background-color: #007259;
+    color: white;
+    width: max-content;
+    padding: 8px;
+    font-family: monospace;
+    display: flex;
+    margin-left: 2px;
+    border-radius: 2px;
+}
+
+.threepage-p {
+    background-color: #001572;
+    color: white;
+    width: max-content;
+    padding: 8px;
+    font-family: monospace;
+    display: flex;
+    margin-left: 2px;
+    border-radius: 2px;
+}
+
+.js-p {
+    background-color: #fff177;
+    color: black;
+    width: max-content;
+    padding: 8px;
+    font-family: monospace;
+    display: flex;
+    margin-left: 2px;
+    border-radius: 2px;
+}
+
+.divs-webs {
+    display: flex;
+    margin: 0 auto;
+    width: max-content;
+}
+
+.p-3 {
+    font-family: "Mona Sans"
+}
+
+#evil-alan {
+    margin: auto; 
+    display: none;
+    animation-name: evil-alan-anim;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes evil-alan-anim {
+    0% {transform: translateY(-22px) rotate(21224deg);}
+    50% {transform: translateY(0px);}
+    100% {transform: translateY(2px);}
+}
+
+@keyframes animstart-1 {
+    0% {opacity: 0; transform: translateY(270px); filter: brightness(300%);}
+    100% {}
+}
+
+@keyframes animstart-2 {
+    0% {opacity: 0;}
+    20% {opacity: 0; transform: translateY(70px); filter: brightness(300%); scale: calc(0.9);}
+    100% {}
+}
+
+@keyframes animstart-3 {
+    0% {opacity: 0;}
+    40% {opacity: 0; transform: translateY(120px); filter: brightness(300%); scale: calc(0.9);}
+    100% {}
 }
